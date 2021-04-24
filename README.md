@@ -17,6 +17,7 @@ C# console application for a bakery that includes the following functionallity:
 ## Technologies Used
  
 ```
+CSS
 
 
  ```
@@ -31,7 +32,7 @@ C# console application for a bakery that includes the following functionallity:
 ## Known Bugs
 * No known bugs
 ## Notes
- 
+* 
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
 * Copyright 2021 Sofia Acosta
