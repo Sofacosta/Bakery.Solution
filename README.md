@@ -19,20 +19,21 @@ C# console application for a bakery that includes the following functionallity:
 ```
 CSS
 
-
  ```
 
 ## Set up / Installation requirements
 * Open the terminal in your machine
 * Navigate to the directory where you would like to save this project 
 * Clone the project with $ git clone https://github.com/Sofacosta/Bakery.Solution.git
-* Navigate to Nakery.Tests and press the command dotnet restore to set environment
+* Navigate to Bakery.Tests and press the command dotnet restore to set test environment
 * Create a .gitignore file in root directory and store /obj and /bin
 * To start program. navigate to Bakery and press the dotnet run command.          
 ## Known Bugs
 * No known bugs
 ## Notes
-* 
+* 1)Get Total price of Bread in Bread class
+* 2)Get total price of Pastry in Pastry Class
+
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
 * Copyright 2021 Sofia Acosta

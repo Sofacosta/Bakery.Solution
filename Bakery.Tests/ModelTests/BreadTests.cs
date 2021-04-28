@@ -4,18 +4,14 @@ using Bakery;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BakeryTests
+  /*public class BakeryTests
   {
     [TestMethod]
-    public void BreadQuantity_GetsNumberOfBreads_int()
+    public void BreadQuantity_GetsNumberOfBreads_true()
     {
       int numberOfBreads = 2;
       Bread newBread = new Bread(numberOfBreads);
-      //Arrange
-
-      //Act
-
-      //Assert
+      Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
-  }
+  }*/ 
 }
