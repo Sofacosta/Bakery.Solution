@@ -26,7 +26,6 @@ CSS
 * Navigate to the directory where you would like to save this project 
 * Clone the project with $ git clone https://github.com/Sofacosta/Bakery.Solution.git
 * Navigate to Bakery.Tests and press the command dotnet restore to set test environment
-* Create a .gitignore file in root directory and store /obj and /bin
 * To start program. navigate to Bakery and press the dotnet run command.          
 ## Known Bugs
 * No known bugs

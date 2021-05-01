@@ -15,6 +15,7 @@ namespace Bakery
       int breadQuantity = -1;
       int pastryQuantity = -1;
       int breadTotalPrice = 0;
+      int pastryTotalPrice = 0;
 
       // Error handling for Bread and Pastry 
       while (runBakery) {
@@ -53,7 +54,8 @@ namespace Bakery
               pastryAnswer = System.Console.ReadLine();
           }
           Pastry newPastry = new Pastry(pastryQuantity);
-          
+          pastryTotalPrice = newPastry.getPastryTotalPrice();
+
           if (newPastry != null) {
             runPastry = false;
           } 
@@ -65,9 +67,9 @@ namespace Bakery
       }
     // Print Bread Total:
     Console.WriteLine("The total price for your bread is: $" + breadTotalPrice + ".00");
+    Console.WriteLine("The total price for your pastry is: $" + pastryTotalPrice + ".00");
     
     }
-
   }
 }
 
