@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Bakery;
+using Bakery.Models;
 
 namespace Bakery.Tests
 {
   [TestClass]
-  /*public class BakeryTests
+  public class BreadTests
   {
     [TestMethod]
     public void BreadQuantity_GetsNumberOfBreads_true()
@@ -13,5 +13,5 @@ namespace Bakery.Tests
       Bread newBread = new Bread(numberOfBreads);
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
-  }*/ 
+  }
 }
