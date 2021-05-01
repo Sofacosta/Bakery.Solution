@@ -65,10 +65,11 @@ namespace Bakery
           runBakery = false;
         }
       }
-    // Print Bread Total:
-    Console.WriteLine("The total price for your bread is: $" + breadTotalPrice + ".00");
-    Console.WriteLine("The total price for your pastry is: $" + pastryTotalPrice + ".00");
-    
+
+      // Print Totals:
+      Console.WriteLine("The total price for your bread is: $" + breadTotalPrice + ".00");
+      Console.WriteLine("The total price for your pastry is: $" + pastryTotalPrice + ".00");
+      Console.WriteLine("The grand total is: $" + (breadTotalPrice + pastryTotalPrice) + ".00");
     }
   }
 }
