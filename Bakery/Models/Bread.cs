@@ -8,7 +8,7 @@ namespace Bakery.Models
     public int BreadQuantity {get;}
     public int TotalBreadPrice = 0;
     public int FreeBreads = 0;
-    public int Excess = 0;
+    public int Remainder = 0;
     public Bread(int breadQuantity) {
         BreadQuantity = breadQuantity;
         TotalBreadPrice = getBreadTotalPrice();
@@ -17,8 +17,8 @@ namespace Bakery.Models
 
     public int getBreadTotalPrice()
     {  
-      Excess = BreadQuantity % 3;
-      FreeBreads = Convert.ToInt32(Math.Round((BreadQuantity - Excess) * .334));
+      Remainder = BreadQuantity % 3;
+      FreeBreads = Convert.ToInt32(Math.Round((BreadQuantity - Remainder) * .334));
 
       return (BreadQuantity - FreeBreads) * 5;
     }
